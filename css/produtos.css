@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(251, 101, 47, 0.945);
+    border: rgba(251, 101, 47, 0.945);
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+i{
+    color: rgba(251, 101, 47, 0.945);
+}
+
+
+/*NAV*/
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    width: 170px;
+    height: 50px;
+    margin: 30px 0 0 250px;
+}
+
+nav .carrinho {
+    height: 35px;
+    width:  35px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px 800px;
+}
+
+nav ul li {
+    padding: 15px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+/*PRODUTOS*/
+
+.container {
+    width: 1100px;
+    height: 1200px;
+    margin: 100px auto;
+}
+
+.header-produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-produtos select {
+    border: rgba(251, 101, 47, 0.945) 1px solid;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.all-products {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+}
+
+.all-products img {
+    width: 240px;
+    height: 320px;
+}
+
+.all-products div {
+    margin: 40px 10px;
+}
+
+.all-products div:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.all-products p {
+    opacity: 0.7;
+}
+
+/*PAGINAÇÃO*/
+
+.paginacao {
+    display: flex;
+    margin: 30px 0 50px 0;
+}
+
+.paginacao .paginas {
+    border: rgba(251, 101, 47, 0.945) 1px solid;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.paginacao .paginas:hover{
+    background: rgba(251, 101, 47, 0.945);
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+}
+
+#footer-produtos {
+    margin-top: 480px;
+}
+
+footer div {
+    padding: 30px;
+    padding-left: 130px;
+}
+
+footer p {
+    color: gray;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer h4{
+    color: white;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+footer li a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer .titulo-links {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 60px;
+    margin-left: 25px;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(251, 101, 47, 0.945);
+    border: rgba(251, 101, 47, 0.945);
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+i{
+    color: rgba(251, 101, 47, 0.945);
+}
+
+/*NAV*/
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    width: 170px;
+    height: 50px;
+    margin: 30px 0 0 250px;
+}
+
+nav .carrinho {
+    height: 35px;
+    width:  35px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px 800px;
+}
+
+nav ul li {
+    padding: 15px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+/*CONTEÚDO CARRINHO*/
+
+.container {
+    width: 1100px;
+    margin: 75px auto;
+    height: 800px;
+}
+
+table {
+    width: 1100px;
+}
+
+table img {
+    width: 70px;
+    height: 80px;
+    margin: 10px;
+}
+
+#td-produto {
+    display: flex;
+}
+
+#td-produto div{
+    margin: 10px;
+}
+
+#td-produto p{
+    margin: 7px 0;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+#td-produto a {
+    color: rgba(251, 101, 47, 0.945);
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+#cabecalho-tr {
+    background-color: rgba(251, 101, 47, 0.945);
+}
+
+.cabecalho-td {
+    color: white;
+    opacity: 0.9;
+    margin-left: 15px;
+    padding: 10px;    
+    border: none;
+}
+
+.ultima-coluna {
+    text-align: right;
+}
+
+table input{
+    width: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.table-resultado {
+    width: 385px;
+    margin-top: 15px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgba(251, 101, 47, 0.945);
+}
+
+#segunda-coluna {
+    text-align: right;
+}
+
+.table-resultado p {
+    margin: 25px 5px;
+}
+
+.table-resultado button {
+    width: 220px;
+}
+
+.table-resultado a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+}

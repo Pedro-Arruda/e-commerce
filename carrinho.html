@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RedStore</title>
+</head>
+<body>
+    <nav>
+        <img src="img/logo.png" alt="" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="carrinho.html"><img src="img/cart.png" alt="" class="carrinho"></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <table>
+            <tr id="cabecalho-tr">
+                <td class="cabecalho-td">Products</td>
+                <td class="cabecalho-td">Quantity</td>
+                <td class="cabecalho-td ultima-coluna">Subtotal</td>
+            </tr> 
+           <tr>
+               <td id="td-produto">
+                   <img src="img/product-1.jpg" alt="">
+                   <div>
+                        <span>Red Printed T-Shirt</span>
+                        <p>Price: $50.00</p>
+                        <a href="">Remove</a>
+                   </div>
+               </td>
+
+               <td>
+                   <input type="number" placeholder="1">
+               </td>
+
+               <td class="ultima-coluna">$50.00</td>
+           </tr> 
+           <tr>
+            <td id="td-produto">
+                <img src="img/product-2.jpg" alt="">
+                <div>
+                     <span>HRX Sports Show</span>
+                     <p>Price: $75.00</p>
+                     <a href="">Remove</a>
+                </div>
+            </td>
+            <td>
+                <input type="number" placeholder="1">
+            </td>
+            <td class="ultima-coluna">$75.00</td>
+        </tr> 
+        <tr>
+            <td id="td-produto">
+                <img src="img/product-3.jpg" alt="">
+                <div>
+                     <span>HXR Gray Trackpants</span>
+                     <p>Price: $75.00</p>
+                     <a href="">Remove</a>
+                </div>
+            </td>
+            <td>
+                <input type="number" placeholder="1">
+            </td>
+            <td class="ultima-coluna">$75.00</td>
+        </tr> 
+        </table>
+
+    <div class="table-resultado">
+        <div>
+            <p>Subtotal</p>
+            <p>Tax</p>
+            <p>Total</p>
+        </div>
+        <div  id="segunda-coluna">
+            <p>$200.00</p>
+            <p>$35.00</p>
+            <p>$235.00</p>
+            <button>
+                <a href="account.html">Proceed to checkout ➜</a>
+            </button>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+</html>
